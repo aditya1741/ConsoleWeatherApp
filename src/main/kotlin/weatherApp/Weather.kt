@@ -1,0 +1,7 @@
+package org.aditya.weatherApp
+
+import com.google.gson.annotations.SerializedName
+
+data class Weather(
+    @SerializedName("description") val description : String
+)
